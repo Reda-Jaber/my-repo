@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reda</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Start Header -->
+  <div class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo">Reda</a>
+      <ul class="main-nav">
+        <li><a href="#books">الكتب</a></li>
+        <li><a href="#quiz">الاختبارات</a></li>
+        <!-- <li><a href="#testimonials">آراء</a></li> -->
+        <li><a href="#services">خدمات</a></li>
+        <li>
+          <a onclick="otherLinks()" href="#">روابط اخرى</a>
+          <!-- Start Megamenu -->
+          <div id="mega-menu" class="mega-menu">
+            <div class="image">
+              <img decoding="async" src="imgs/megamenu.png" alt="" />
+            </div>
+            <ul class="links">
+              <li>
+                <a href="#our-skills">مهارتي  <i class="far fa-check-circle fa-fw"></i></a>
+              </li>
+              <li>
+                <a href="#work-steps">  ماذا نعمل  <i class="far fa-clipboard fa-fw"></i></a>
+              </li>
+              <li>
+                <a href="#discount">الخطط    <i class="far fa-chart-bar fa-fw"></i></a>
+              </li>
+              <li>
+                <a href="#testimonials">آراء <i class="far fa-building fa-fw"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Megamenu -->
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Header -->
+  <!-- Start Landing -->
+  <div class="landing">
+    <div class="container">
+      <div class="text">
+        <h1>مرحبا بكم في موقعنا</h1>
+        <p>نقدم لكم في هذا الموقع مجموعة مختلفة من المهارات و الكتب التعليمية في مجالات مختلفة و ايضا نقدم لكم مجموعة من الاختبارات المختلفة<br> نتمنى لكم حظا سعيدا</p>
+      </div>
+    </div>
+    <a href="#books" class="go-down">
+      <i class="fas fa-angle-double-down fa-2x"></i>
+    </a>
+  </div>
+  <!-- End Landing -->
+  <!-- Start books -->
+  <div class="books" id="books">
+    <h2 class="main-title">الكتب</h2>
+    <div class="container">
+      <div class="box">
+      <div class="img">
+        <img decoding="async" src="css/c++.jpg" alt="" />
+      </div>
+        <div class="content">
+          <h3>c++</h3>
+          <p>"كتاب C++" هو مصدر قيم وشامل يقدم للقراء فهماً عميقاً حول لغة البرمجة C++، وهي واحدة من اللغات البرمجية الأكثر تأثيراً
+          واستخداماً في مجال تطوير البرمجيات</p>
+        </div>
+        <div class="info">
+          <a href="books/c++.pdf">قراءة</a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+      <div class="box">
+      <div class="img">
+        <img decoding="async" src="css/js.jpg" alt="" />
+      </div>
+        <div class="content">
+          <h3>جافا سكريبت</h3>
+          <p>"كتاب JavaScript" هو مورد رائع يقدم رحلة مثيرة إلى عالم لغة البرمجة JavaScript، وهي لغة أساسية في تطوير الويب. يهدف
+          الكتاب إلى توجيه المبتدئين</p>
+        </div>
+        <div class="info">
+          <a href="books/js.pdf">قراءة</a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+      <div class="box">
+      <div class="img">
+        <img decoding="async" src="css/b.jpg" alt="" />
+      </div>
+        <div class="content">
+          <h3>ادارة اعمال</h3>
+          <p>كتاب إدارة الأعمال" هو مصدر لا غنى عنه يلقي الضوء على مفاهيم إدارة الأعمال بشكل شامل. يستهدف الكتاب جمهورًا واسعًا،
+          بدءًا من الطلاب الجامعيين في مجال إدارة الأعمال وصولاً إلى المحترفين</p>
+        </div>
+        <div class="info">
+          <a href="books/business.pdf">قراءة</a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+      <div class="box">
+      <div class="img">
+        <img decoding="async" src="css/mar.jpg" alt="" />
+      </div>
+        <div class="content">
+          <h3>تسويق</h3>
+          <p>يستكشف الكتاب مفاهيم أساسية في التسويق، مثل تحليل السوق، وتحديد الجمهور المستهدف، وتطوير استراتيجيات التسويق</p>
+        </div>
+        <div class="info">
+          <a href="books/markting.pdf">قراءة</a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+      <div class="box">
+      <div class="img">
+        <img decoding="async" src="css/5.jpg" alt="" />
+      </div>
+        <div class="content">
+          <h3>نظرية الفستق</h3>
+          <p>ان لم تعرف الي اين تذهب فجميع الطرق تنتهي للا شئ</p>
+        </div>
+        <div class="info">
+          <a href="books/book5.pdf">قراءة</a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+      <div class="box">
+      <div class="img">
+        <img decoding="async" src="css/6.jpg" alt="" />
+      </div>
+        <div class="content">
+          <h3>السيرة النبوية</h3>
+          <p>جميع العرب ينتسبون الي اسماعيل بن ابراهيم عليهما السلام</p>
+        </div>
+        <div class="info">
+          <a href="books/book6.pdf">قراءة</a>
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="spikes"></div>
+  <!-- End books -->
+  <!-- Start quiz -->
+  <div class="quiz" id="quiz">
+    <h2 class="main-title">الاختبارات</h2>
+    <div class="container">
+      <div class="box">
+        <div class="data">
+        </div>
+        <div class="info">
+          <h3>css</h3>
+          <p>اختبار علي اساسات لغة css</p>
+          <button>ابدء الاختبار</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="data">
+        </div>
+        <div class="info">
+          <h3>HTML</h3>
+          <p>اختبار علي اساسات لغة html</p>
+          <button>ابدء الاختبار</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="data">
+        </div>
+        <div class="info">
+          <h3>c++</h3>
+          <p>اختبار علي اساسات لغة c++</p>
+          <button>ابدء الاختبار</button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="data">
+        </div>
+        <div class="info">
+          <h3>محاسية تكاليف</h3>
+          <p>بعض الاسئلة البسيطة لاختبار ذاكرتك</p>
+          <button style="background-color: #2196f3;"><a class="button" href="https://docs.google.com/forms/d/1xY30BbmHZjdMfaTEvtm4-7iFrLYclOlUpgxTWKe5Ui0/edit">ابدء الاختبار</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="spikes"></div>
+  <!-- End quiz -->
+  <!-- Start Services -->
+  <div class="services" id="services">
+    <h2 class="main-title">خدمات</h2>
+    <div class="container">
+      <div class="box">
+        <i class="fas fa-user-shield fa-4x"></i>
+        <h3>Security</h3>
+        <div class="info">
+          <a href="#">Details</a>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-tools fa-4x"></i>
+        <h3>Fixing Issues</h3>
+        <div class="info">
+          <a href="#">Details</a>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-laptop-code fa-4x"></i>
+        <h3>Coding</h3>
+        <div class="info">
+          <a href="#">Details</a>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-palette fa-4x"></i>
+        <h3>Web Design</h3>
+        <div class="info">
+          <a href="#">Details</a>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <!-- End Services -->
+  <!-- Start Skills -->
+  <div class="our-skills" id="our-skills">
+    <h2 class="main-title">مهارتي</h2>
+    <div class="container">
+      <img decoding="async" src="imgs/skills.png" alt="" />
+      <div class="skills">
+        <div class="skill">
+          <h3>HTML <span>80%</span></h3>
+          <div class="the-progress">
+            <span style="width: 80%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>CSS <span>85%</span></h3>
+          <div class="the-progress">
+            <span style="width: 85%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>JavaScript <span>70%</span></h3>
+          <div class="the-progress">
+            <span style="width: 70%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <h3>Github <span>80%</span></h3>
+          <div class="the-progress">
+            <span style="width: 80%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Skills -->
+  <!-- Start Work Steps -->
+  <div class="work-steps" id="work-steps">
+    <h2 class="main-title">ماذا نعمل</h2>
+    <div class="container">
+      <img decoding="async" src="imgs/work-steps.png" alt="" class="image" />
+      <div class="info">
+        <div class="box">
+          <img decoding="async" src="imgs/work-steps-1.png" alt="" />
+          <div class="text">
+            <h3>تطوير الويب</h3>
+            <p>
+              تصميم وتطوير مواقع الويب وتطبيقات الويب. نتمتع بمهارات قوية في لغات البرمجة الحديثة وتقنيات التطوير، مع التركيز على
+              تحقيق تجارب مستخدم فائقة الجودة
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <img decoding="async" src="imgs/work-steps-2.png" alt="" />
+          <div class="text">
+            <h3>تصميم الويب</h3>
+            <p>
+              تصميم واجهات المستخدم الجذابة وتحسين تجربة المستخدم. نسعى لتحويل الأفكار إلى تصميمات رقمية مبهرة
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Work Steps -->
+  <!-- Start Discount -->
+  <div class="discount" id="discount">
+    <div class="image">
+      <div class="content">
+        <h2>خطة مستقبلية</h2>
+        <p>
+          نطمح الي تطوير الموقع و ضم اكبر قدر من الكتب و المعلومات بحيث جعلة منصة تعليمية في المستقبل
+        </p>
+        <!-- <img decoding="async" src="imgs/discount.png" alt="" /> -->
+      </div>
+    </div>
+    <div class="form">
+      <div class="content">
+        <h2>طلب خدمة</h2>
+        <form action="">
+          <input class="input" type="text" placeholder="اسمك" name="name" />
+          <input class="input" type="email" placeholder="البريد الالكتروني" name="email" />
+          <input class="input" type="text" placeholder="رقم الهاتف" name="mobile" />
+          <textarea class="input" placeholder="ما هي الخدمة" name="message"></textarea>
+          <input type="submit" value="ارسال" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- End Discount -->
+  <div class="testimonials" id="testimonials">
+    <h2 class="main-title">آراء</h2>
+    <div class="container">
+      <div class="box">
+        <h3>محمد فرج</h3>
+        <span class="title">Full Stack Developer</span>
+        <div class="rate">
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>
+          هذا العمل رائع و يستحق التشجيع واصل جهودك يا بطل
+        </p>
+      </div>
+      <div class="box">
+        <h3>Mohamed Fathy</h3>
+        <span class="title">
+        back End Developer</span>
+        <div class="rate">
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>
+          جميل جدا و خاصة الكتب المتنوعة
+        </p>
+      </div>
+      <div class="box">
+        <h3>Ahmed Nabil</h3>
+        <span class="title">Front End Developer</span>
+        <div class="rate">
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>
+          هذا العمل رائع
+        </p>
+      </div>
+      <div class="box">
+        <h3>احمد سيد</h3>
+        <span class="title">c++ Developer</span>
+        <div class="rate">
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+        </div>
+        <p>
+          معنديش حاجة اقولها غير الله ينور
+        </p>
+      </div>
+      <div class="box">
+        <h3>Sherief Mohamed</h3>
+        <span class="title">Full Stack Developer</span>
+        <div class="rate">
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>
+          شغل كويس بس محتاج شوية تطوير
+        </p>
+      </div>
+      <div class="box">
+        <h3>Adel Mohamed</h3>
+        <span class="title">Full Stack Developer</span>
+        <div class="rate">
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="filled fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p>
+          محتاج تضيف اقسام تاني عشان تكون منصة تعليمية كيبرة بس عاش عليك
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Start Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="box">
+        <h3>Reda Jaber</h3>
+        <ul class="social">
+          <li>
+            <a href="https://wa.me/1286391206" class="facebook">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a href="tg://resolve?domain=redaJaber1" class="twitter">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:mr.reda.jaber@gmail.com" class="youtube">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text">
+          يمكنك التواصل معي 
+        </p>
+      </div>
+      <div class="box">
+        <div class="line">
+          <i class="fas fa-map-marker-alt fa-fw"></i>
+          <div class="info">مصر, الاسكندرية, فيكتوريا</div>
+        </div>
+        <div class="line">
+          <i class="fas fa-phone-volume fa-fw"></i>
+          <div class="info">
+            <span>+201201371335</span>
+            <span>+201286391206</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">تم تصميمة بواسطة رضا جابر</p>
+  </div>
+  <!-- End Footer -->
+  <script src="js/java.js"></script>
+</body>
+
+</html>

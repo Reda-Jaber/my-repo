@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+  crossorigin="anonymous" 
+  referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/framework.css">
+  <link rel="stylesheet" href="css/master.css">
+  <title>Dashboard</title>
+</head>
+<body class="bg-eee m-0 p-0">
+  <p class="center-flex c-red fw-bold hide">This width works above 900 pixels</p>
+  <div class="main d-flex">
+    <div class="sidebar txt-c bg-white p-relative">
+      <div class="logo center-flex">
+        <i class="fa-brands fa-centos fs-20"></i>
+        <h2 class="fs-20 pl-10 ">Dashboard</h2>
+      </div>
+      <div class="links">
+        <div class="nav p-10 mt-20">
+          <a href="#" class="link-nav">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Dashboard</span>
+          </a>
+        </div>
+        <div class="nav p-10">
+          <a href="#" class="link-nav">
+            <i class="fa-solid fa-cubes"></i>
+            <span>Products</span>
+          </a>
+        </div>
+        <div class="nav p-10">
+          <a href="#" class="link-nav">
+            <i class="fa-solid fa-ranking-star"></i>
+            <span>Revenues</span>
+          </a>
+        </div>
+        <div class="nav p-10">
+          <a href="#" class="link-nav">
+            <i class="fa-solid fa-stairs"></i>
+            <span>Sales</span>
+          </a>
+        </div>
+        <div class="nav p-10">
+          <a href="#" class="link-nav">
+            <i class="fa-solid fa-store"></i>
+            <span>Purchase</span>
+          </a>
+        </div>
+        <div class="nav p-10">
+          <a href="#" class="link-nav">
+            <i class="fa-solid fa-user-tie"></i>
+            <span>Suppliers</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="header bg-white between-flex p-10">
+        <div class="search p-relative">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" placeholder="Search Here...">
+        </div>
+        <div class="admin center-flex">
+          <i class="fa-regular fa-bell p-relative"></i>
+          <img class="m-10" src="img/team-03.png" alt="">
+          <span>Reda</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+      <div class="boxes-sales">
+        <div id="one" class="box one">
+          <i class="fa-solid fa-cubes c-orange bg-eee p-15 rad-half"></i>
+          <p class="fs-10">Today's Products</p>
+          <span class="fw-bold fs-20  ml-25">
+          2000
+          <span class="c-green fw-bold fs-10">+30%</span>
+          </span>
+          <button class="mt-10 w-full rad-6 bg-blue p-5"><a class="c-white" href="#">View Details</a></button>
+        </div>
+        <div class="box tow"> 
+          <i class="fa-solid fa-stairs c-red bg-eee p-15 rad-half"></i>
+          <p class="fs-10">Today's Sales</p>
+          <span class="fw-bold fs-20 ml-25">
+            962
+            <span class="c-red fw-bold fs-10">-20%</span>
+          </span>
+          <button id="not" class="mt-10 w-full rad-6 bg-blue p-5"><a class="c-white" href="#">View Details</a></button>
+        </div>
+        <div class="box three"> 
+          <i class="fa-solid fa-store c-green bg-eee p-15 rad-half"></i>
+          <p class="fs-10">Today's Purchase</p>
+          <span class="fw-bold fs-20 ml-25">
+            1000
+            <span class="c-green fw-bold fs-10">+0%</span>
+          </span>
+          <button class="mt-10 w-full rad-6 bg-blue p-5"><a class="c-white" href="#">View Details</a></button>
+        </div>
+        <div class="box four"> 
+          <i class="fa-solid fa-ranking-star c-blue bg-eee p-15 rad-half"></i>
+          <p class="fs-10">Today's Revenues</p>
+          <span class="fw-bold fs-20 ml-25">
+            19240
+            <span class="c-red fw-bold fs-10">-20%</span>
+          </span>
+          <button class="mt-10 w-full rad-6 bg-blue p-5"><a class="c-white" href="#">View Details</a></button>
+        </div>
+      </div>
+      <div class="percent p-15 m-15 mt-0 pt-0 d-flex">
+        <div class="box five p-15 rad-6 bg-white"> 
+          <div class="div-month">
+            <h2 class="current-month fs-20 m-5 mb-0 p-10">
+              Current Month
+            </h2>
+            <p class="p-month fs-13 p-10 mt-0">All Statistice For The Month</p>
+            <span class="span-main m-20">
+              <span class="c-white fw-bold bg-blue rad-6 pl-10" style="width: 70%;">total sales</span>
+            </span>
+            <span class="span-main m-20">
+              <span class="c-white fw-bold bg-blue rad-6 pl-10" style="width: 75%;">total revenues</span>
+            </span>
+            <span class="span-main m-20">
+              <span class="c-white fw-bold bg-blue rad-6 pl-10" style="width: 60%;">total purchase</span>
+            </span>
+            <span class="span-main m-20">
+              <span class="c-white fw-bold bg-green rad-6 pl-10" style="width: 90%;">total product</span>
+            </span>
+            <span class="span-main m-20">
+              <span class="c-white fw-bold bg-red rad-6 pl-10" style="width: 40%;">total customers</span>
+            </span>
+          </div>
+        </div>
+        <div class="box six rad-6 bg-white center-flex"> 
+          <h2 class="fs-20">This Year</h2>
+          <div class="rad rad-half p-relative fw-bold">
+            <span class="p-absolute">Total Sales</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="js/test.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, 
+ initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="hero">
+    <div class="main-width">
+        <header>
+          <div id="home" class="logo">
+            <i class="fa-solid fa-r"></i>
+          </div>
+        
+          <nav>
+            <div onclick="clicked()" class="hamp">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        
+            <ul id="navlist" class="nav-list">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../About/About.html">About</a></li>
+              <li><a href="../services/services.html">Services</a></li>
+              <li><a href="quiz/quiz.html">Quiz</a></li>
+              <li class="btn"><a href="../contact/contact.html">Contact Me</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </section>
+
+  <div class="box">
+    <div class="cont"></div>
+    <div class="d">    
+      <h2>اختبار محاسبة تكاليف</h2>
+      <p>هذه الاختبار سيتم الغاءة 30 ديسمبر</p>
+      <span>نتمنى لكم التوفيق</span>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScZGfbWY2Yl9kqfbVHa6uxafdNCjzWafirnQqwOBDEEwDbGbA/viewform?usp=sf_link">ابدء</a>
+    </div>
+  </div>
+
+
+  <script>
+    let x = 0;
+    function clicked() {
+      if (x == 0) {
+        document.getElementById("navlist").style.display = "block";
+        x = 1;
+      } else if (x == 1) {
+        document.getElementById("navlist").style.display = "none";
+        x = 0;
+      }
+    }
+    // var typed = new typed(".input", {
+    //   strings:["Reda", "Web Developer", "Web Designer"],
+    //   typeSpeed: 70,
+    //   backSpeed: 60,
+    //   loop:true
+    // });
+  </script>
+</body>
+
+</html>
